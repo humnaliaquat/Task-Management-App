@@ -1,0 +1,19 @@
+nav {
+    background-color: aliceblue;
+}
+.logo{
+    background: linear-gradient(45deg,#3498db, #3222c4); /* Blue gradient */
+    -webkit-background-clip: text; /* For Safari and Chrome */
+    background-clip: text; /* For other modern browsers */
+    color: transparent; 
+}
+.add-task{
+    width: clamp(200px, 10vw, 600px); 
+    height: 65px;
+    color: white;
+    border-radius: 20px;
+    border: 5px solid transparent;  /* Make the border transparent */
+    background-image: linear-gradient(45deg,#3498db, #3222c4); /* Purple to Blue gradient */
+    background-origin: border-box;  /* Apply the background to the border */
+    background-clip: content-box, border-box;
+}
