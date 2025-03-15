@@ -35,4 +35,8 @@
   border: none;
   color: #5c6268;
 }
+.buttons:hover{
+  color: blue;
+  background-color: rgb(48, 46, 46);
+}
 

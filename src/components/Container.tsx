@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./Container.css";
 export default function Container() {
-  const[color, setColor] =useState("");
-  const handleColor = ()=>{
-    setColor("");
+  const[color, setColor] =useState("yellow");
+  const toggleColor = ()=>{
+    setColor("blue");
   }
   return (
     <>
@@ -16,10 +16,10 @@ export default function Container() {
         />
         </div>
        <div className="buttons-container ms-4 mt-2">
-       <button type="button" className="btn btn-primary buttons">
+       <button style ={{backgroundColor:color }} className="btn btn-primary buttons " onClick = {toggleColor} type="button" >
           All
         </button>
-        <button type="button" className="btn btn-primary buttons ms-3">
+        <button type="button" style ={{backgroundColor:color }}  className="btn btn-primary buttons ms-3">
           Today
         </button>
         <button type="button" className="btn btn-primary buttons ms-3">
