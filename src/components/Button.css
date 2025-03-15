@@ -1,17 +1,20 @@
 nav {
-    background-color: aliceblue;
+    background-color: rgb(220, 225, 230);
+    display: flex;
 }
 .logo{
+
     background: linear-gradient(45deg,#3498db, #3222c4); /* Blue gradient */
     -webkit-background-clip: text; /* For Safari and Chrome */
     background-clip: text; /* For other modern browsers */
     color: transparent; 
 }
 .add-task{
-    width: clamp(200px, 10vw, 600px); 
-    height: 65px;
+    width: clamp(150px, 14vw, 400px); 
+    height: 54px;
     color: white;
-    border-radius: 20px;
+    padding: 0%;
+    border-radius: 10px;
     border: 5px solid transparent;  /* Make the border transparent */
     background-image: linear-gradient(45deg,#3498db, #3222c4); /* Purple to Blue gradient */
     background-origin: border-box;  /* Apply the background to the border */

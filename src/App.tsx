@@ -1,5 +1,6 @@
 
 import Butoon from "./components/Butoon"
+import "./App.css"
 import Container from "./components/Container"
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
   return (
     <>
       <Butoon logo = "Taskely"/>
-      <Container/>
+      <div className='  .container-xl main-container  mt-3 ms-5 me-5'>
+        <Container/>
+    </div>
     </>
   )
 }

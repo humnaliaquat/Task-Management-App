@@ -1,4 +1,38 @@
-.main-container{
-  background-color: rgb(6, 29, 163);
-  width: 80%;
+.all-container{
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  width: 100%;
 }
+.search-input{
+  position: relative;
+  box-shadow: none;
+  width: 96%;
+  height: 40px;
+  border-radius: 13px;
+  font-size: 15px;
+  font-weight: 390;
+  background-color: rgb(231, 234, 236);
+  outline: none;
+  color: #5c6268;
+ }
+ 
+ .search-input:focus-visible {
+  outline: none !important; /* For Webkit browsers: Chrome, Safari, etc. */
+  box-shadow: none !important; /* Ensuring no focus ring */
+  border: 2px solid #007bff;
+}
+.input-container{
+    display: flex;
+}
+.buttons-container{
+  display: flex;
+  justify-content: baseline;
+}
+.buttons{
+  border-radius: 5px;
+  background-color: rgb(220, 225, 230);
+  border: none;
+  color: #5c6268;
+}
+
