@@ -1,0 +1,25 @@
+.svg-circle{
+   display: flex;
+   align-items: center;
+}
+.para{
+    display: flex;
+    align-items: baseline;
+    font-weight: 550;
+    color: black;
+}
+.status-btn{
+    background-color: rgb(85, 194, 85);
+    width: 5px;
+    height: 5px;
+}
+.status-btn2{
+    background-color: rgb(67, 44, 199);
+    width: 5px;
+    height: 5px;
+}
+.active-status{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}

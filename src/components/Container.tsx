@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./Container.css";
 export default function Container() {
-  const[color, setColor] =useState("yellow");
+  const[color, setColor] =useState("");
   const toggleColor = ()=>{
-    setColor("blue");
+    setColor("#2e3bf1");
   }
   return (
     <>
@@ -11,21 +11,21 @@ export default function Container() {
         <div className="input-container">
         <input
           type="text"
-          className="form-control mb-3 mt-4 me-4 ms-4 search-input"
+          className=" mb-3 mt-4 me-4 ms-4 ps-3 search-input"
           placeholder="Search tasks..."
         />
         </div>
-       <div className="buttons-container ms-4 mt-2">
-       <button style ={{backgroundColor:color }} className="btn btn-primary buttons " onClick = {toggleColor} type="button" >
+       <div className="buttons-container ms-4 mt-2 w-90">
+       <button style ={{backgroundColor:color, color: "white"}} className="btn  buttons w-90 " onClick = {toggleColor} type="button" >
           All
         </button>
-        <button type="button" style ={{backgroundColor:color }}  className="btn btn-primary buttons ms-3">
+        <button type="button" style ={{backgroundColor:color }}  className="btn  buttons ms-3 w-90">
           Today
         </button>
-        <button type="button" className="btn btn-primary buttons ms-3">
+        <button type="button" className="btn  buttons ms-3 w-90">
           Upcoming
         </button>
-        <button type="button" className="btn btn-primary buttons ms-3">
+        <button type="button" className="btn  buttons ms-3 w-90">
           Completed
         </button>
        </div>

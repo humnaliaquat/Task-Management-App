@@ -1,0 +1,16 @@
+.gird-container{
+    display: flex;
+    justify-content: space-between;
+}
+.gird-one {
+    background-color: rgb(209, 136, 40);
+    width: 50%;
+    height: 400px;
+    border-radius: 9px;
+}
+.grid-two{
+    background-color: rgb(134, 88, 27);
+    width: 50%;
+    height: 400px;
+    border-radius: 9px;
+}
